@@ -16,7 +16,10 @@
         "start": "node server.js",
         "test-lab-3": "jest lab3.test.js",
         "test-lab-4": "jest lab4.test.js",
-        "test-lab-5": "jest lab5.test.js"
+        "test-lab-5": "jest lab5.test.js",
+        "vercel-install": "npm install --only=production && cd lab8/ && npm i",
+        "build": "cd lab8 && npm run build"
+        
     },
     "author": "",
     "license": "ISC"
